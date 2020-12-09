@@ -14,7 +14,7 @@ body{
 
 .tetrisGame{
     display: grid;
-    color: white;~
+    color: white;
     display: flex;
     justify-content: center;
 }
