@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="tetris.css">
+</head>
+<body>
+    <section id="grid">
+        <div class="gridbox box1" id="1A"></div>
+        <div class="gridbox box2" id="1B"></div>
+        <div class="gridbox box3" id="1C"></div>
+        <div class="gridbox box4" id="1D"></div>
+        <div class="gridbox box5" id="1E"></div>
+        <div class="gridbox box6" id="1F"></div>
+        <div class="gridbox box7" id="1G"></div>
+        <div class="gridbox box8" id="1H"></div>
+        <div class="gridbox box9" id="1I"></div>
+        <div class="gridbox box10" id="1J"></div>
+
+        <div class="gridbox" id="2A"></div>
+        <div class="gridbox" id="2B"></div>
+        <div class="gridbox" id="2C"></div>
+        <div class="gridbox" id="2D"></div>
+        <div class="gridbox" id="2E"></div>
+        <div class="gridbox" id="2F"></div>
+        <div class="gridbox" id="2G"></div>
+        <div class="gridbox" id="2H"></div>
+        <div class="gridbox" id="2I"></div>
+        <div class="gridbox" id="2J"></div>
+
+        <div class="gridbox" id="3A"></div>
+        <div class="gridbox" id="3B"></div>
+        <div class="gridbox" id="3C"></div>
+        <div class="gridbox" id="3D"></div>
+        <div class="gridbox" id="3E"></div>
+        <div class="gridbox" id="3F"></div>
+        <div class="gridbox" id="3G"></div>
+        <div class="gridbox" id="3H"></div>
+        <div class="gridbox" id="3I"></div>
+        <div class="gridbox" id="3J"></div>
+
+        <div class="gridbox" id="4A"></div>
+        <div class="gridbox" id="4B"></div>
+        <div class="gridbox" id="4C"></div>
+        <div class="gridbox" id="4D"></div>
+        <div class="gridbox" id="4E"></div>
+        <div class="gridbox" id="4F"></div>
+        <div class="gridbox" id="4G"></div>
+        <div class="gridbox" id="4H"></div>
+        <div class="gridbox" id="4I"></div>
+        <div class="gridbox" id="4J"></div>
+
+        <div class="gridbox" id="5A"></div>
+        <div class="gridbox" id="5B"></div>
+        <div class="gridbox" id="5C"></div>
+        <div class="gridbox" id="5D"></div>
+        <div class="gridbox" id="5E"></div>
+        <div class="gridbox" id="5F"></div>
+        <div class="gridbox" id="5G"></div>
+        <div class="gridbox" id="5H"></div>
+        <div class="gridbox" id="5I"></div>
+        <div class="gridbox" id="5J"></div>
+
+        <div class="gridbox" id="6A"></div>
+        <div class="gridbox" id="6B"></div>
+        <div class="gridbox" id="6C"></div>
+        <div class="gridbox" id="6D"></div>
+        <div class="gridbox" id="6E"></div>
+        <div class="gridbox" id="6F"></div>
+        <div class="gridbox" id="6G"></div>
+        <div class="gridbox" id="6H"></div>
+        <div class="gridbox" id="6I"></div>
+        <div class="gridbox" id="6J"></div>
+
+        <div class="gridbox" id="7A"></div>
+        <div class="gridbox" id="7B"></div>
+        <div class="gridbox" id="7C"></div>
+        <div class="gridbox" id="7D"></div>
+        <div class="gridbox" id="7E"></div>
+        <div class="gridbox" id="7F"></div>
+        <div class="gridbox" id="7G"></div>
+        <div class="gridbox" id="7H"></div>
+        <div class="gridbox" id="7I"></div>
+        <div class="gridbox" id="7J"></div>
+
+        <div class="gridbox" id="8A"></div>
+        <div class="gridbox" id="8B"></div>
+        <div class="gridbox" id="8C"></div>
+        <div class="gridbox" id="8D"></div>
+        <div class="gridbox" id="8E"></div>
+        <div class="gridbox" id="8F"></div>
+        <div class="gridbox" id="8G"></div>
+        <div class="gridbox" id="8H"></div>
+        <div class="gridbox" id="8I"></div>
+        <div class="gridbox" id="8J"></div>
+
+        <div class="gridbox" id="9A"></div>
+        <div class="gridbox" id="9B"></div>
+        <div class="gridbox" id="9C"></div>
+        <div class="gridbox" id="9D"></div>
+        <div class="gridbox" id="9E"></div>
+        <div class="gridbox" id="9F"></div>
+        <div class="gridbox" id="9G"></div>
+        <div class="gridbox" id="9H"></div>
+        <div class="gridbox" id="9I"></div>
+        <div class="gridbox" id="9J"></div>
+
+        <div class="gridbox" id="10A"></div>
+        <div class="gridbox" id="10B"></div>
+        <div class="gridbox" id="10C"></div>
+        <div class="gridbox" id="10D"></div>
+        <div class="gridbox" id="10E"></div>
+        <div class="gridbox" id="10F"></div>
+        <div class="gridbox" id="10G"></div>
+        <div class="gridbox" id="10H"></div>
+        <div class="gridbox" id="10I"></div>
+        <div class="gridbox" id="10J"></div>
+
+        <div class="gridbox" id="11A"></div>
+        <div class="gridbox" id="11B"></div>
+        <div class="gridbox" id="11C"></div>
+        <div class="gridbox" id="11D"></div>
+        <div class="gridbox" id="11E"></div>
+        <div class="gridbox" id="11F"></div>
+        <div class="gridbox" id="11G"></div>
+        <div class="gridbox" id="11H"></div>
+        <div class="gridbox" id="11I"></div>
+        <div class="gridbox" id="11J"></div>
+
+        <div class="gridbox" id="12A"></div>
+        <div class="gridbox" id="12B"></div>
+        <div class="gridbox" id="12C"></div>
+        <div class="gridbox" id="12D"></div>
+        <div class="gridbox" id="12E"></div>
+        <div class="gridbox" id="12F"></div>
+        <div class="gridbox" id="12G"></div>
+        <div class="gridbox" id="12H"></div>
+        <div class="gridbox" id="12I"></div>
+        <div class="gridbox" id="12J"></div>
+
+        <div class="gridbox" id="13A"></div>
+        <div class="gridbox" id="13B"></div>
+        <div class="gridbox" id="13C"></div>
+        <div class="gridbox" id="13D"></div>
+        <div class="gridbox" id="13E"></div>
+        <div class="gridbox" id="13F"></div>
+        <div class="gridbox" id="13G"></div>
+        <div class="gridbox" id="13H"></div>
+        <div class="gridbox" id="13I"></div>
+        <div class="gridbox" id="13J"></div>
+
+        <div class="gridbox" id="14A"></div>
+        <div class="gridbox" id="14B"></div>
+        <div class="gridbox" id="14C"></div>
+        <div class="gridbox" id="14D"></div>
+        <div class="gridbox" id="14E"></div>
+        <div class="gridbox" id="14F"></div>
+        <div class="gridbox" id="14G"></div>
+        <div class="gridbox" id="14H"></div>
+        <div class="gridbox" id="14I"></div>
+        <div class="gridbox" id="14J"></div>
+
+        <div class="gridbox" id="15A"></div>
+        <div class="gridbox" id="15B"></div>
+        <div class="gridbox" id="15C"></div>
+        <div class="gridbox" id="15D"></div>
+        <div class="gridbox" id="15E"></div>
+        <div class="gridbox" id="15F"></div>
+        <div class="gridbox" id="15G"></div>
+        <div class="gridbox" id="15H"></div>
+        <div class="gridbox" id="15I"></div>
+        <div class="gridbox" id="15J"></div>
+
+        <div class="gridbox" id="16A"></div>
+        <div class="gridbox" id="16B"></div>
+        <div class="gridbox" id="16C"></div>
+        <div class="gridbox" id="16D"></div>
+        <div class="gridbox" id="16E"></div>
+        <div class="gridbox" id="16F"></div>
+        <div class="gridbox" id="16G"></div>
+        <div class="gridbox" id="16H"></div>
+        <div class="gridbox" id="16I"></div>
+        <div class="gridbox" id="16J"></div>
+
+        <div class="gridbox" id="17A"></div>
+        <div class="gridbox" id="17B"></div>
+        <div class="gridbox" id="17C"></div>
+        <div class="gridbox" id="17D"></div>
+        <div class="gridbox" id="17E"></div>
+        <div class="gridbox" id="17F"></div>
+        <div class="gridbox" id="17G"></div>
+        <div class="gridbox" id="17H"></div>
+        <div class="gridbox" id="17I"></div>
+        <div class="gridbox" id="17J"></div>
+
+        <div class="gridbox" id="18A"></div>
+        <div class="gridbox" id="18B"></div>
+        <div class="gridbox" id="18C"></div>
+        <div class="gridbox" id="18D"></div>
+        <div class="gridbox" id="18E"></div>
+        <div class="gridbox" id="18F"></div>
+        <div class="gridbox" id="18G"></div>
+        <div class="gridbox" id="18H"></div>
+        <div class="gridbox" id="18I"></div>
+        <div class="gridbox" id="18J"></div>
+
+        <div class="gridbox" id="19A"></div>
+        <div class="gridbox" id="19B"></div>
+        <div class="gridbox" id="19C"></div>
+        <div class="gridbox" id="19D"></div>
+        <div class="gridbox" id="19E"></div>
+        <div class="gridbox" id="19F"></div>
+        <div class="gridbox" id="19G"></div>
+        <div class="gridbox" id="19H"></div>
+        <div class="gridbox" id="19I"></div>
+        <div class="gridbox" id="19J"></div>
+
+        <div class="gridbox" id="20A"></div>
+        <div class="gridbox" id="20B"></div>
+        <div class="gridbox" id="20C"></div>
+        <div class="gridbox" id="20D"></div>
+        <div class="gridbox" id="20E"></div>
+        <div class="gridbox" id="20F"></div>
+        <div class="gridbox" id="20G"></div>
+        <div class="gridbox" id="20H"></div>
+        <div class="gridbox" id="20I"></div>
+        <div class="gridbox" id="20J"></div>
+
+        <div class="gridbox" id="21A"></div>
+        <div class="gridbox" id="21B"></div>
+        <div class="gridbox" id="21C"></div>
+        <div class="gridbox" id="21D"></div>
+        <div class="gridbox" id="21E"></div>
+        <div class="gridbox" id="21F"></div>
+        <div class="gridbox" id="21G"></div>
+        <div class="gridbox" id="21H"></div>
+        <div class="gridbox" id="21I"></div>
+        <div class="gridbox" id="21J"></div>
+
+        <div class="gridbox" id="22A"></div>
+        <div class="gridbox" id="22B"></div>
+        <div class="gridbox" id="22C"></div>
+        <div class="gridbox" id="22D"></div>
+        <div class="gridbox" id="22E"></div>
+        <div class="gridbox" id="22F"></div>
+        <div class="gridbox" id="22G"></div>
+        <div class="gridbox" id="22H"></div>
+        <div class="gridbox" id="22I"></div>
+        <div class="gridbox" id="22J"></div>
+
+        <div class="gridbox" id="23A"></div>
+        <div class="gridbox" id="23B"></div>
+        <div class="gridbox" id="23C"></div>
+        <div class="gridbox" id="23D"></div>
+        <div class="gridbox" id="23E"></div>
+        <div class="gridbox" id="23F"></div>
+        <div class="gridbox" id="23G"></div>
+        <div class="gridbox" id="23H"></div>
+        <div class="gridbox" id="23I"></div>
+        <div class="gridbox" id="23J"></div>
+
+        <div class="gridbox" id="24A"></div>
+        <div class="gridbox" id="24B"></div>
+        <div class="gridbox" id="24C"></div>
+        <div class="gridbox" id="24D"></div>
+        <div class="gridbox" id="24E"></div>
+        <div class="gridbox" id="24F"></div>
+        <div class="gridbox" id="24G"></div>
+        <div class="gridbox" id="24H"></div>
+        <div class="gridbox" id="24I"></div>
+        <div class="gridbox" id="24J"></div>
+    </section>
+</body>
+</html>
